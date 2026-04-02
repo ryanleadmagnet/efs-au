@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1188.77 1188.77">
+  <!-- Generator: Adobe Illustrator 30.1.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 136)  -->
+  <defs>
+    <style>
+      .st0 {
+        opacity: .79;
+      }
+
+      .st0, .st1 {
+        fill: none;
+        isolation: isolate;
+        stroke: #00b3ff;
+        stroke-miterlimit: 10;
+        stroke-width: 140px;
+      }
+
+      .st2 {
+        opacity: .8;
+      }
+
+      .st1 {
+        opacity: .24;
+      }
+    </style>
+  </defs>
+  <g id="c" class="st2">
+    <path class="st1" d="M223.597,965.183c-204.785-204.785-204.785-536.814,0-741.599,204.785-204.785,536.807-204.778,741.592.007"/>
+    <path class="st0" d="M965.19,223.59c204.785,204.785,204.785,536.814,0,741.599-204.785,204.785-536.814,204.785-741.599,0"/>
+  </g>
+</svg>
