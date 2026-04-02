@@ -23,19 +23,20 @@ export default function CareerPage() {
                     title="Work With Us"
                     bgImage="/careers-hero.jpg"
                 />
-                <section className="content-section" style={{ background: '#fff', padding: '80px 20px 80px 20px' }}>
+                <section className="content-section career-section" style={{ background: '#fff', padding: '80px 20px 80px 20px' }}>
                     <div className="container" style={{ maxWidth: '1140px', margin: '0 auto' }}>
                         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '40px' }}>
                             {/* Sales Card */}
-                            <div className="animate-on-scroll" style={{ transition: 'transform 0.3s, box-shadow 0.3s' }}>
+                            <div className="animate-on-scroll career-card" style={{ transition: 'transform 0.3s, box-shadow 0.3s' }}>
                                 <img
                                     src="/careers-sales.jpg"
                                     alt="Sales and Appointment Setting"
+                                    className="career-card-img"
                                     style={{
                                         width: '80%', height: 'auto', objectFit: 'contain'
                                     }}
                                 />
-                                < div style={{ padding: '40px' }}>
+                                <div className="career-card-content" style={{ padding: '40px' }}>
                                     <div style={{ color: '#47c7ea', fontFamily: "'Rajdhani', sans-serif", fontWeight: 700, fontSize: '13px', textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '12px' }}>We&apos;re Hiring</div>
                                     <h3 style={{ fontFamily: "'Rajdhani', sans-serif", fontSize: '28px', fontWeight: 700, color: '#082042', marginBottom: '16px', lineHeight: 1.2 }}>Sales &amp; Appointment Setter</h3>
                                     <p style={{ color: '#3f4f65', lineHeight: 1.7, marginBottom: '28px' }}>
@@ -69,13 +70,14 @@ export default function CareerPage() {
                             </div>
 
                             {/* Electrical Card */}
-                            <div className="animate-on-scroll delay-1" style={{ transition: 'transform 0.3s, box-shadow 0.3s' }}>
+                            <div className="animate-on-scroll delay-1 career-card" style={{ transition: 'transform 0.3s, box-shadow 0.3s' }}>
                                 <img
                                     src="/careers-installer.jpg"
                                     alt="Electrical and Installation"
+                                    className="career-card-img"
                                     style={{ width: '80%', height: 'auto', objectFit: 'contain' }}
                                 />
-                                <div style={{ padding: '40px' }}>
+                                <div className="career-card-content" style={{ padding: '40px' }}>
                                     <div style={{ color: '#47c7ea', fontFamily: "'Rajdhani', sans-serif", fontWeight: 700, fontSize: '13px', textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '12px' }}>We&apos;re Hiring</div>
                                     <h3 style={{ fontFamily: "'Rajdhani', sans-serif", fontSize: '28px', fontWeight: 700, color: '#082042', marginBottom: '16px', lineHeight: 1.2 }}>Electrical &amp; Installation</h3>
                                     <p style={{ color: '#3f4f65', lineHeight: 1.7, marginBottom: '28px' }}>
