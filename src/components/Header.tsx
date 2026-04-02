@@ -73,13 +73,11 @@ export default function Header({ alwaysSticky = false }: { alwaysSticky?: boolea
     return (
         <>
             {/* Modal Overlay Overlay */}
-            {isMenuOpen && (
-                <div 
-                    className="menu-overlay visible" 
-                    style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 199, opacity: 1 }}
-                    onClick={() => setIsMenuOpen(false)}
-                ></div>
-            )}
+            {/* Mobile Menu Overlay */}
+            <div 
+                className={`menu-overlay ${isMenuOpen ? 'active' : ''}`}
+                onClick={() => setIsMenuOpen(false)}
+            ></div>
 
             {/* Quote Modal Overlay */}
             <div id="quote-modal" className={`modal-overlay ${isModalOpen ? 'active' : ''}`} onClick={(e) => e.target === e.currentTarget && setIsModalOpen(false)}>
@@ -183,6 +181,9 @@ export default function Header({ alwaysSticky = false }: { alwaysSticky?: boolea
 
             {/* MOBILE NAVIGATION MENU */}
             <div className={`mobile-nav-menu ${isMenuOpen ? 'active' : ''}`} id="mobile-nav-menu">
+                <button className="mobile-menu-close" onClick={() => setIsMenuOpen(false)}>
+                    <i className="fas fa-times"></i>
+                </button>
                 <div className="mobile-nav-content" style={{ paddingBottom: '100px' }}>
                     <ul>
                         <li><Link href="/" className={pathname === '/' ? 'active' : ''}>Home</Link></li>
