@@ -40,7 +40,7 @@ export default function CommercialSolar() {
 
                 {/* Section 1 – Stop Paying For Power (dark photo bg) */}
                 <section className="section-stop-paying" style={{ backgroundColor: "#ffffff" }}>
-                    <div className="section-stop-paying-inner">
+                    <div className="section-stop-paying-inner mobile-reverse">
                         <div className="section-stop-paying-content">
                             <div className="hero-content-center animate-on-scroll">
                                 <AnimatedHeading tag="h2" className="section-subtitle" style={{ color: "var(--primary-color)" }}>STOP PAYING FOR POWER</AnimatedHeading>
@@ -78,26 +78,6 @@ export default function CommercialSolar() {
                     </div>
                 </section>
 
-                {/* Section 3 – Tier 1 Products (shared bg wrapper) */}
-                <div className="sections-bg-wrapper" style={{ background: "#f5f5f5" }}>
-                    <div className="sections-circle-overlay" id="sections-circle"></div>
-                    <section className="section-tier1 section-stop-paying" style={{ background: "transparent" }}>
-                        <div className="section-stop-paying-inner">
-                            <div className="section-stop-paying-content animate-on-scroll">
-                                <div className="hero-content-center">
-                                    <AnimatedHeading tag="h2" className="section-subtitle">TIER 1 PRODUCTS</AnimatedHeading>
-                                    <AnimatedHeading tag="h3" className="section-title" style={{ color: "#000000" }}>We Only Use the Best<br />of the Best</AnimatedHeading>
-                                    <p className="section-desc" style={{ color: "#000000" }}>We don&apos;t settle for anything but the best when it comes to the solar products we sell &amp; install. With long manufacture warranties of up to 30 years, you can rest easy knowing your system will perform long into the future.</p>
-                                    <QuoteBtn />
-                                </div>
-                            </div>
-                            <div className="section-stop-paying-image animate-on-scroll delay-1">
-                                <img src="https://www.efssolar.com.au/wp-content/uploads/2025/08/Asset-64-1024x873.webp" alt="Solar Installation Tier 1" style={{ width: '73%', borderRadius: '12px' }} />
-                            </div>
-                        </div>
-                    </section>
-                </div>
-
                 {/* Section 4 – Make the Switch (steps) */}
                 <section className="section-switch content-section">
                     <div className="container mx-auto">
@@ -130,6 +110,26 @@ export default function CommercialSolar() {
                         </div>
                     </div>
                 </section>
+
+                {/* Section 3 – Tier 1 Products (moved) */}
+                <div className="sections-bg-wrapper" style={{ background: "#f5f5f5" }}>
+                    <div className="sections-circle-overlay" id="sections-circle"></div>
+                    <section className="section-tier1 section-stop-paying" style={{ background: "transparent" }}>
+                        <div className="section-stop-paying-inner">
+                            <div className="section-stop-paying-content animate-on-scroll">
+                                <div className="hero-content-center">
+                                    <AnimatedHeading tag="h2" className="section-subtitle">TIER 1 PRODUCTS</AnimatedHeading>
+                                    <AnimatedHeading tag="h3" className="section-title" style={{ color: "#000000" }}>We Only Use the Best<br />of the Best</AnimatedHeading>
+                                    <p className="section-desc" style={{ color: "#000000" }}>We don&apos;t settle for anything but the best when it comes to the solar products we sell &amp; install. With long manufacture warranties of up to 30 years, you can rest easy knowing your system will perform long into the future.</p>
+                                    <QuoteBtn />
+                                </div>
+                            </div>
+                            <div className="section-stop-paying-image animate-on-scroll delay-1">
+                                <img src="https://www.efssolar.com.au/wp-content/uploads/2025/08/Asset-64-1024x873.webp" alt="Solar Installation Tier 1" style={{ width: '73%', borderRadius: '12px' }} />
+                            </div>
+                        </div>
+                    </section>
+                </div>
 
                 {/* CTA Banner */}
                 <section className="cta-banner">

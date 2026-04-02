@@ -90,7 +90,7 @@ export default function CareerPage() {
                                         ))}
                                     </ul>
                                     <a href="#" className="btn btn-primary quote-trigger" data-iframe-url="https://form-efs.vercel.app/electrician">
-                                        <span className="btn-text">Apply Now</span>
+                                        <span className="btn-text">Apply for electrician</span>
                                         <span className="btn-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.75 18.37" width="10">
                                                 <path fill="none" stroke="currentColor" strokeWidth="2" d="m.71.71l6.03,6.03c1.35,1.35,1.35,3.55,0,4.9L.71,17.67"></path>

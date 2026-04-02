@@ -40,7 +40,7 @@ export default function Batteries() {
 
                 {/* Section 1 – STOP PAYING FOR POWER (white bg, image right) */}
                 <section className="section-stop-paying" style={{ backgroundColor: "#ffffff" }}>
-                    <div className="section-stop-paying-inner">
+                    <div className="section-stop-paying-inner mobile-reverse">
                         <div className="section-stop-paying-content">
                             <div className="hero-content-center animate-on-scroll">
                                 <AnimatedHeading tag="h2" className="section-subtitle" style={{ color: "var(--primary-color)" }}>STOP PAYING FOR POWER</AnimatedHeading>
@@ -79,7 +79,7 @@ export default function Batteries() {
                 {/* Section 3 – Tier 1 Products (shared bg wrapper) */}
                 <div className="sections-bg-wrapper" style={{ background: "#f5f5f5" }}>
                     <section className="section-tier1 section-stop-paying" style={{ background: "transparent" }}>
-                        <div className="section-stop-paying-inner">
+                        <div className="section-stop-paying-inner mobile-reverse">
                             <div className="section-stop-paying-content animate-on-scroll">
                                 <div className="hero-content-center">
                                     <AnimatedHeading tag="h2" className="section-subtitle">TIER 1 PRODUCTS</AnimatedHeading>

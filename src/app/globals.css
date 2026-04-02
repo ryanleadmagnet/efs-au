@@ -1628,6 +1628,10 @@ p {
         flex-direction: column !important;
     }
 
+    .section-stop-paying-inner.mobile-reverse {
+        flex-direction: column-reverse !important;
+    }
+
     .section-stop-paying-content,
     .section-stop-paying-image {
         width: 100% !important;
