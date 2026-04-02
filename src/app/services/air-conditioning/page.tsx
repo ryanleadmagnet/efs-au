@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 };
 
 const QuoteBtn = () => (
-    <a href="#" className="btn btn-primary quote-trigger mt-6">
+    <a href="#" className="btn btn-primary quote-trigger mt-6" data-iframe-url="https://form-efs.vercel.app/air_con">
         <span className="btn-text">Get a Quote</span>
         <span className="btn-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.75 18.37" width="10">
@@ -136,7 +136,7 @@ export default function AirConditioning() {
                         <h2 className="cta-banner-title">
                             Help your pocket and the planet. Make the switch today!
                         </h2>
-                        <a href="#" className="btn btn-primary quote-trigger hover-dark" style={{ backgroundColor: "#1e2e4f", padding: "16px 36px", color: "#fff", fontWeight: "bold", textTransform: "uppercase", letterSpacing: "1px", border: "none" }}>
+                        <a href="#" className="btn btn-primary quote-trigger hover-dark" data-iframe-url="https://form-efs.vercel.app/air_con" style={{ backgroundColor: "#1e2e4f", padding: "16px 36px", color: "#fff", fontWeight: "bold", textTransform: "uppercase", letterSpacing: "1px", border: "none" }}>
                             <span className="btn-text">Get a Quote</span>
                             <span className="btn-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.75 18.37" width="10">

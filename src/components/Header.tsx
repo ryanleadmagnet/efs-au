@@ -119,9 +119,8 @@ export default function Header({ alwaysSticky = false }: { alwaysSticky?: boolea
                                     <li><Link href="/services/air-conditioning" className={pathname === '/services/air-conditioning' ? 'active' : ''}>Air-Conditioning</Link></li>
                                 </ul>
                             </li>
-                            <li className="has-dropdown"><Link href="/technology/canadian-solar" className={pathname.startsWith('/technology') ? 'active' : ''}>Technology <i className="fas fa-caret-down"></i></Link>
+                            <li className="has-dropdown"><Link href="/technology/energizer" className={pathname.startsWith('/technology') ? 'active' : ''}>Technology <i className="fas fa-caret-down"></i></Link>
                                 <ul className="dropdown">
-                                    <li><Link href="/technology/canadian-solar" className={pathname === '/technology/canadian-solar' ? 'active' : ''}>Canadian Solar</Link></li>
                                     <li><Link href="/technology/energizer" className={pathname === '/technology/energizer' ? 'active' : ''}>Energizer</Link></li>
                                     <li><Link href="/technology/goodwe" className={pathname === '/technology/goodwe' ? 'active' : ''}>GoodWe</Link></li>
                                     <li><Link href="/technology/tesla-powerwall" className={pathname === '/technology/tesla-powerwall' ? 'active' : ''}>Tesla Powerwall</Link></li>
@@ -161,7 +160,6 @@ export default function Header({ alwaysSticky = false }: { alwaysSticky?: boolea
                             </li>
                             <li className="has-dropdown"><a href="#" className={pathname.startsWith('/technology') ? 'active' : ''}>Technology <i className="fas fa-caret-down"></i></a>
                                 <ul className="dropdown">
-                                    <li><Link href="/technology/canadian-solar" className={pathname === '/technology/canadian-solar' ? 'active' : ''}>Canadian Solar</Link></li>
                                     <li><Link href="/technology/energizer" className={pathname === '/technology/energizer' ? 'active' : ''}>Energizer</Link></li>
                                     <li><Link href="/technology/goodwe" className={pathname === '/technology/goodwe' ? 'active' : ''}>GoodWe</Link></li>
                                     <li><Link href="/technology/tesla-powerwall" className={pathname === '/technology/tesla-powerwall' ? 'active' : ''}>Tesla Powerwall</Link></li>
@@ -211,7 +209,6 @@ export default function Header({ alwaysSticky = false }: { alwaysSticky?: boolea
                                 Technology <i className={`fas fa-caret-${openDropdowns.includes('technology') ? 'up' : 'down'}`}></i>
                             </a>
                             <ul className={`mobile-dropdown ${openDropdowns.includes('technology') ? 'open' : ''}`}>
-                                <li><Link href="/technology/canadian-solar" className={pathname === '/technology/canadian-solar' ? 'active' : ''}>Canadian Solar</Link></li>
                                 <li><Link href="/technology/energizer" className={pathname === '/technology/energizer' ? 'active' : ''}>Energizer</Link></li>
                                 <li><Link href="/technology/goodwe" className={pathname === '/technology/goodwe' ? 'active' : ''}>GoodWe</Link></li>
                                 <li><Link href="/technology/tesla-powerwall" className={pathname === '/technology/tesla-powerwall' ? 'active' : ''}>Tesla Powerwall</Link></li>
