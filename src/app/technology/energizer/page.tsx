@@ -1,6 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import TrustIndexWidget from '@/components/TrustIndexWidget';
+import GoogleReviewsWidget from '@/components/GoogleReviewsWidget';
 
 const QuoteBtn = () => (
     <a href="#" className="btn btn-primary quote-trigger">
@@ -249,7 +249,7 @@ export default function EnergizerPage() {
                     <div className="container">
                         <h3 className="section-title">How customers rate their experience with us</h3>
                         <div className="animate-on-scroll visible">
-                            <TrustIndexWidget />
+                            <GoogleReviewsWidget />
                         </div>
                     </div>
                 </section>

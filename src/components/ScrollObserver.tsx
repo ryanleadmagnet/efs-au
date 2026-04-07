@@ -52,7 +52,7 @@ export default function ScrollObserver() {
                     const rect = htmlEl.parentElement?.getBoundingClientRect();
                     if (rect) {
                         const centerOffset = (rect.top + rect.height / 2) - window.innerHeight / 2;
-                        htmlEl.style.transform = `translateY(${centerOffset * 0.15}px)`;
+                        htmlEl.style.transform = `translateY(${centerOffset * 0.3}px)`;
                     }
                 });
 
@@ -60,7 +60,7 @@ export default function ScrollObserver() {
                     const rect = sectionsCircle.parentElement?.getBoundingClientRect();
                     if (rect) {
                         const centerOffset = (rect.top + rect.height / 2) - window.innerHeight / 2;
-                        sectionsCircle.style.transform = `translateY(${centerOffset * 0.12}px)`;
+                        sectionsCircle.style.transform = `translateY(${centerOffset * 0.35}px)`;
                     }
                 }
             });

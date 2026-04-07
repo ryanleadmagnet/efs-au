@@ -3,7 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePageHero';
 import AnimatedHeading from '@/components/AnimatedHeading';
-import TrustIndexWidget from '@/components/TrustIndexWidget';
+import GoogleReviewsWidget from '@/components/GoogleReviewsWidget';
 
 export const metadata: Metadata = {
     title: 'Solar Battery Storage Gold Coast & Sydney | EFS Solar',
@@ -149,7 +149,7 @@ export default function Batteries() {
                     <div className="container">
                         <AnimatedHeading tag="h3" className="section-title">How customers rate their experience with us</AnimatedHeading>
                         <div className="animate-on-scroll visible">
-                            <TrustIndexWidget />
+                            <GoogleReviewsWidget />
                         </div>
                     </div>
                 </section>

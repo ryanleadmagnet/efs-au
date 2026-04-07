@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import TrustIndexWidget from '@/components/TrustIndexWidget';
+import GoogleReviewsWidget from '@/components/GoogleReviewsWidget';
 
 export const metadata: Metadata = {
     title: 'GoodWe Solar Inverters Gold Coast & Sydney | EFS Solar',
@@ -272,7 +272,7 @@ export default function GoodwePage() {
                     <div className="container">
                         <h3 className="section-title">How customers rate their experience with us</h3>
                         <div className="animate-on-scroll visible">
-                            <TrustIndexWidget />
+                            <GoogleReviewsWidget />
                         </div>
                     </div>
                 </section>

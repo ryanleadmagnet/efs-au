@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AnimatedHeading from '@/components/AnimatedHeading';
-import TrustIndexWidget from '@/components/TrustIndexWidget';
+import GoogleReviewsWidget from '@/components/GoogleReviewsWidget';
 
 export const metadata: Metadata = {
     title: 'EFS Solar | Solar Panels Gold Coast & Sydney — 0% Upfront',
@@ -31,6 +31,10 @@ export default function Home() {
                         <div className="hero-overlay"></div>
                     </div>
 
+                    <div className="absolute top-[120px] left-1/2 -translate-x-1/2 md:left-auto md:-translate-x-0 md:transform-none md:right-16 z-20 w-max">
+                        <img src="/assets/logo2.png" alt="Logo 2" className="h-[60px] md:h-[80px] w-auto" />
+                    </div>
+
                     <div className="container hero-content">
                         <h1 className="hero-subtitle">Solar Made Simple</h1>
                         <AnimatedHeading tag="h2" className="hero-title">Solar &amp; Batteries<br />0% Upfront</AnimatedHeading>
@@ -46,8 +50,8 @@ export default function Home() {
                         </a>
 
                         <div className="hero-trust-image">
-                            <img src="/assets/header-ico.svg"
-                                alt="Google Reviews 5 Stars" />
+                            <img src="/assets/logo1.png"
+                                alt="Certificates" />
                         </div>
 
                         <div className="hero-stats-row">
@@ -150,6 +154,7 @@ export default function Home() {
                             <AnimatedHeading tag="h2" className="section-subtitle">PEACE OF MIND</AnimatedHeading>
                             <AnimatedHeading tag="h3" className="section-title">All of our installers <br />are fully licenced</AnimatedHeading>
                             <div className="peace-desc">
+                                <img src="/assets/asset-59.webp" alt="Certification Logo" className="mb-10 h-auto w-auto mx-auto md:mx-0 block" style={{ marginBottom: '40px' }} />
                                 <p>Unlike many of our competitors we do not take chances when it comes to our installers. When you
                                     deal with EFS Solar, you know you are dealing with qualified technicians whose interest is to
                                     deliver the best solar installation for your home or business.</p>
@@ -257,7 +262,7 @@ export default function Home() {
                     <div className="container">
                         <AnimatedHeading tag="h3" className="section-title">How customers rate their experience with us</AnimatedHeading>
                         <div className="animate-on-scroll visible">
-                            <TrustIndexWidget />
+                            <GoogleReviewsWidget />
                         </div>
                     </div>
                 </section>

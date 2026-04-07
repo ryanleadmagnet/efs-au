@@ -52,8 +52,8 @@ h1 {
 
 body {
     font-family: var(--font-body);
-    font-size: 16px;
-    line-height: 1.7;
+    font-size: 14px;
+    line-height: 1.5em;
     color: var(--text-color);
     background-color: var(--white);
     overflow-x: hidden;
@@ -690,8 +690,8 @@ p {
 }
 
 .hero-trust-image img {
-    width: 333px;
-    max-width: 100%;
+    max-width: 500px;
+    width: 100%;
     height: auto;
 }
 
@@ -767,9 +767,9 @@ p {
     .hero-trust-image {
         display: flex;
         justify-content: center;
+        max-width: 400px;
         width: 100%;
-        width: 250px;
-        margin: 0;
+        margin: auto;
     }
 
     .hero-stats-row {
@@ -787,11 +787,12 @@ p {
     }
 
     .stat-number {
-        font-size: 28px;
+        font-size: 36px;
     }
 
     .stat-text {
-        font-size: 13px;
+        font-size: 12px;
+        line-height: 1.2em;
     }
 
     /* Hero mobile: swap video for static image */
@@ -1421,6 +1422,12 @@ p {
     padding-bottom: 0;
 }
 
+@media (min-width: 992px) {
+    .section-battery {
+        padding-top: 40px !important;
+    }
+}
+
 .sections-bg-wrapper::before {
     content: '';
     position: absolute;
@@ -1452,7 +1459,7 @@ p {
 
 .sections-circle-overlay,
 .parallax-circle {
-    transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) !important;
+    transition: transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
 }
 
 /* --- Parallax Circles (Peace & other sections) --- */

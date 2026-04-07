@@ -106,6 +106,7 @@ export default function RootLayout({
       <body className="antialiased">
         <ScrollObserver />
         {children}
+        <Script src="https://elfsightcdn.com/platform.js" strategy="lazyOnload" />
         <Script src="/script.js" strategy="afterInteractive" />
       </body>
     </html>

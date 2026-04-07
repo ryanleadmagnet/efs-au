@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AnimatedHeading from '@/components/AnimatedHeading';
-import TrustIndexWidget from '@/components/TrustIndexWidget';
+import GoogleReviewsWidget from '@/components/GoogleReviewsWidget';
 
 export const metadata: Metadata = {
     title: 'About EFS Solar — Certified Solar Installers Gold Coast & Sydney',
@@ -184,7 +184,7 @@ export default function AboutPage() {
                     <div className="container">
                         <AnimatedHeading tag="h3" className="section-title">How customers rate their experience with us</AnimatedHeading>
                         <div className="animate-on-scroll visible">
-                            <TrustIndexWidget />
+                            <GoogleReviewsWidget />
                         </div>
                     </div>
                 </section>

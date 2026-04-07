@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AnimatedHeading from '@/components/AnimatedHeading';
 import ServicePageHero from '@/components/ServicePageHero';
-import TrustIndexWidget from '@/components/TrustIndexWidget';
+import GoogleReviewsWidget from '@/components/GoogleReviewsWidget';
 import ReviewsGallery from '@/components/ReviewsGallery';
 
 
@@ -79,7 +79,7 @@ export default function ReviewsPage() {
                 <div className="container">
                     <AnimatedHeading tag="h3" className="section-title">How customers rate their experience with us</AnimatedHeading>
                     <div className="animate-on-scroll visible">
-                        <TrustIndexWidget />
+                        <GoogleReviewsWidget />
                     </div>
                 </div>
             </section>
