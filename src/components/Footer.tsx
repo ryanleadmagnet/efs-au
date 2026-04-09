@@ -37,7 +37,7 @@ export default function Footer() {
                         <li><a href="/get-started">After Installation</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/career">Work with Us</a></li>
-                        <li><a href="#">News</a></li>
+                        <li><a href="/news">News</a></li>
                     </ul>
                 </div>
 

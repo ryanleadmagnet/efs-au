@@ -27,7 +27,7 @@ export default function ResidentialSolar() {
                 />
 
                 <section className="section-stop-paying" style={{ backgroundColor: "#ffffff" }}>
-                    <div className="section-stop-paying-inner mobile-reverse">
+                    <div className="section-stop-paying-inner">
                         <div className="section-stop-paying-image animate-on-scroll">
                             <img src="/assets/iMac_Mockup_noise.gif" alt="A Smart Move for Your Home" />
                         </div>
