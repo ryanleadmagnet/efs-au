@@ -1699,6 +1699,8 @@ p {
 @media (max-width: 991px) {
     .section-stop-paying-inner {
         flex-direction: column !important;
+        justify-content: center !important;
+        min-height: inherit;
     }
 
     .section-stop-paying-inner.mobile-reverse {
